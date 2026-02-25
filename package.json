@@ -1,0 +1,46 @@
+{
+  "name": "opnet-predictions",
+  "version": "1.0.0",
+  "description": "Decentralized prediction markets on Bitcoin Layer 1 using OPNet smart contracts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Funmilayo21/Opnet-predictions.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "opnet",
+    "prediction-markets",
+    "defi",
+    "smart-contracts",
+    "layer1",
+    "governance",
+    "staking",
+    "btc",
+    "decentralized"
+  ],
+  "author": "OPNet Predictions Team",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Funmilayo21/Opnet-predictions/issues"
+  },
+  "homepage": "https://github.com/Funmilayo21/Opnet-predictions#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@btc-vision/btc-runtime": "^1.10.12"
+  }
+}
